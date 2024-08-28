@@ -10,7 +10,8 @@ const Index = ({ pets }) => {
     <>
 
       {/* TODO: Display Hours component */}
-
+import Hours from '../components/Hours';
+<Hours />
       {/* Create a card for each pet */}
       {pets.map((pet) => (
         <div key={pet._id}>
