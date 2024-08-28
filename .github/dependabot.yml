@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # o cualquier otro gestor de dependencias como pip, maven, etc.
+    directory: "/" # directorio donde están tus dependencias
+    schedule:
+      interval: "daily"
