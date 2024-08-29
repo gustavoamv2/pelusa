@@ -24,7 +24,7 @@ import React from "react";
         // display today and the hours in an div with an id of hours
         return (
             <div id="hours">
-                <h2>Horario de Atencion:</h2>
+                <h2>Horario de Atención:</h2>
                 <p>{todayHours.day} {todayHours.open} - {todayHours.close}</p>
             </div>
         )
